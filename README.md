@@ -6,8 +6,6 @@
 
 ## Installation
 
----
-
 First you have to install `fastapi-pydentity` like this:
 
     pip install fastapi-pydentity
@@ -43,8 +41,6 @@ app.include_router(data_router)
 </div>
 
 ## Features
-
----
 
 * [X] Customizable dependency
 * [X] Customizable authentication:
