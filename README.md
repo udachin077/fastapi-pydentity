@@ -1,4 +1,4 @@
-from pydentity.validators import PasswordValidator<h1 align="center">FastAPI-Pydentity</h1>
+<h1 align="center">FastAPI-Pydentity</h1>
 
 <p align="center">
     <em>Ready-to-use and customizable users management for FastAPI</em>
