@@ -1,0 +1,20 @@
+from fastapi_pydentity.identity.dependency import (
+    IdentityErrorDescriberDepends,
+    LoggerUserManagerDepends,
+    LoggerRoleManagerDepends,
+    LoggerSignInManagerDepends,
+    IdentityOptionsDepends,
+    UserStoreDepends,
+    RoleStoreDepends,
+    PasswordHasherDepends,
+    LookupNormalizerDepends,
+    UserConfirmationDepends,
+    PasswordValidatorDepends,
+    UserValidatorDepends,
+    RoleValidatorDepends,
+    UserManagerDepends,
+    RoleManagerDepends,
+    UserClaimsPrincipalFactoryDepends,
+    SignInManagerDepends,
+)
+from fastapi_pydentity.identity.params import add_identity, add_default_identity

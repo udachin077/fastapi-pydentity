@@ -1,0 +1,6 @@
+from .change_password import get_change_password_router
+from .login import get_login_router
+from .personal_data import get_download_personal_data_router, get_delete_personal_data_router
+from .register import get_register_router
+from .reset_password import get_reset_password_router
+from .two_factor_authenticator import get_two_factor_authenticator_router
