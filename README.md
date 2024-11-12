@@ -31,8 +31,8 @@ use_authorization(app)
 
 ...
 
-app.include_router(account_router)
-app.include_router(data_router)
+app.include_router(get_register_router())
+app.include_router(get_login_router())
 
 ```
 
